@@ -1,0 +1,33 @@
+/* styles.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('https://img.freepik.com/free-photo/close-up-christmas-tree-leaves_23-2147836962.jpg?t=st=1720464574~exp=1720468174~hmac=895f725c3072b6ecc13902cea624afe89154de45cca8afd46adf912b1a948f17&w=1380');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+}
